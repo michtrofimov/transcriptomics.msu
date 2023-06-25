@@ -1,0 +1,11 @@
+# ignore all files
+*
+# do not ignore directories
+!*/
+#do not ignore essential files
+!.gitignore
+!README.md
+#do not ignore notebooks
+!1_intro_to_nextflow*
+!2_mapping*
+!3_identifying_distributions*
